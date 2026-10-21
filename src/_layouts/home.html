@@ -6,9 +6,27 @@ layout: default
     <p class="eyebrow">The Association of Bioinformatics Professionals</p>
     <h1 class="hero-headline">Bioinformatics is the invisible engine of modern life sciences.</h1>
     <p class="hero-subhead">It's time we treat it that way.</p>
-    <a class="btn btn-primary" href="{{ '/about/' | relative_url }}">Get involved</a>
   </div>
 </section>
+
+<section class="atlas-hero" aria-labelledby="atlas-hero-heading">
+  <div class="atlas-hero-inner">
+    <div class="atlas-hero-copy">
+      <p class="eyebrow">The Atlas of Bioinformatics Professions</p>
+      <h2 id="atlas-hero-heading" class="atlas-hero-headline">What is a <em>bioinformatician</em>?</h2>
+      <p class="atlas-hero-sub">We read <span data-atlas-count hidden></span>life sciences job postings and grouped them by what they ask people to do. Explore a snapshot of the job profiles including their top duties, skills, and tools, and view who's hiring for those roles.</p>
+      <a class="btn btn-primary" href="{{ site.atlas_url }}">Explore the Atlas</a>
+    </div>
+    <div
+      class="atlas-ring"
+      data-atlas-ring
+      data-src="{{ site.atlas_url }}assets/data/dashboard-data.json"
+      data-href="{{ site.atlas_url }}"
+    ></div>
+  </div>
+</section>
+<script src="{{ site.atlas_url }}assets/vendor/d3.min.js" defer></script>
+<script src="{{ '/assets/js/atlas-ring.js' | relative_url }}" defer></script>
 
 <section class="teasers" aria-labelledby="teasers-heading">
   <h2 id="teasers-heading" class="visually-hidden">Site sections</h2>

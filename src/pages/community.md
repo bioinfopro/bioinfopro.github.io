@@ -11,6 +11,33 @@ permalink: /community/
   </div>
 </section>
 
+## Resources
+
+Tools and frameworks from and for the community to help us all practice bioinformatics consistently.
+
+<ul class="entry-list">
+  {% assign featured_resources = site.data.resources | where: "featured", true %}
+  {% for resource in featured_resources %}
+  <li>
+    <article class="entry-card">
+      <div class="entry-card-head">
+        <h3>{{ resource.title }}</h3>
+        <span class="entry-card-tag">{{ resource.category }}</span>
+      </div>
+      <p class="entry-card-blurb">{{ resource.blurb }}</p>
+      <a
+        class="btn btn-secondary entry-card-link"
+        href="{{ resource.url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Visit {{ resource.title }} →
+      </a>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+
 ## Get Involved
 
 There's more than one way to get involved, from reading what other bioinformaticians are working through to talking it out with them directly.
@@ -52,30 +79,3 @@ There's more than one way to get involved, from reading what other bioinformatic
     </div>
   </article>
 </div>
-
-## Resources
-
-Tools and frameworks from and for the community to help us all practice bioinformatics consistently.
-
-<ul class="entry-list">
-  {% assign featured_resources = site.data.resources | where: "featured", true %}
-  {% for resource in featured_resources %}
-  <li>
-    <article class="entry-card">
-      <div class="entry-card-head">
-        <h3>{{ resource.title }}</h3>
-        <span class="entry-card-tag">{{ resource.category }}</span>
-      </div>
-      <p class="entry-card-blurb">{{ resource.blurb }}</p>
-      <a
-        class="btn btn-secondary entry-card-link"
-        href="{{ resource.url }}"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Visit {{ resource.title }} →
-      </a>
-    </article>
-  </li>
-  {% endfor %}
-</ul>

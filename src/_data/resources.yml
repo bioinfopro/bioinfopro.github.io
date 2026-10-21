@@ -19,3 +19,9 @@
   url: https://bioinfopro.org/4d-bio/
   featured: true
 
+- category: For job seekers
+  title: The Atlas of Bioinformatics Professions
+  blurb: An interactive map of what life sciences job postings ask for, grouped into job families and profiles, with each profile's top duties, skills, and tools, and who's hiring for it.
+  url: https://bioinfopro.org/atlas-of-professions/
+  featured: true
+
