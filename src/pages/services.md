@@ -8,7 +8,7 @@ permalink: /services/
   <div class="hero-inner">
     <p class="hero-headline">We help teams put skill-based standards into practice.</p>
     <p class="hero-subhead">Consulting, education, and evaluation for organizations and the people who do the work.</p>
-    <a class="btn btn-primary" href="mailto:{{ site.email }}">Talk to us</a>
+    <a class="btn btn-primary" href="{{ site.contact_form_url }}" target="_blank" rel="noopener noreferrer">Talk to us</a>
   </div>
 </section>
 
@@ -54,7 +54,7 @@ We work with organizations and practitioners who want their bioinformatics hirin
 
 We work mostly with small biotech teams, and we scope each engagement to the resources you have. Work is priced by the project or by the hour, depending on what you need.
 
-<a class="btn btn-primary" href="mailto:{{ site.email }}">Talk to us</a>
+<a class="btn btn-primary" href="{{ site.contact_form_url }}" target="_blank" rel="noopener noreferrer">Talk to us</a>
 
 
 
