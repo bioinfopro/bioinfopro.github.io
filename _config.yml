@@ -34,6 +34,9 @@ repository: bioinfopro/bioinfopro.github.io # lets jekyll-github-metadata resolv
 # and the posting count from its live data, so it is an absolute URL (it also
 # works under `jekyll serve`).
 atlas_url: https://bioinfopro.org/atlas-of-professions/
+# The contact form (Tally) behind every "Talk to us" / "Contact us" button,
+# here and on the Atlas.
+contact_form_url: https://tally.so/r/Ar721B
 
 # Build settings
 theme: minima
