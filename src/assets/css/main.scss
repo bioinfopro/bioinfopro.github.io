@@ -14,6 +14,13 @@
   // Derived tint (not a core brand token) — light orchid wash for hover rings.
   --color-royal-orchid-tint: #F4E4F7;
 
+  // Error state (design system section 6, approved 2026-10-26). Form errors
+  // ONLY: the invalid field's border, the error message text, and the
+  // message box fill (tint). Same values as the Brick tag pair on purpose;
+  // always shown with a written message, never as the only signal.
+  --color-error: #A33F2C;
+  --color-error-tint: #FAE7E1;
+
   // Tag-pill palette (auxiliary — see design system section 9). Content
   // tag pills ONLY: never surfaces, body text, buttons, or icons. Each
   // pill pairs a *-tint background with its matching solid as the text
