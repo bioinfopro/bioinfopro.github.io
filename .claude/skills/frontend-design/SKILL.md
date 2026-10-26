@@ -19,6 +19,7 @@ Whenever designing UI or writing code, you must strictly adhere to these officia
 - **Accent (Highlights & Focal Points):** Royal Orchid `#9525AA`
 - **Neutral / Surface:** Alice Blue `#D9E2EC`
 - **Pure Surface / Base:** Pure White `#FFFFFF`
+- **Error state only (not a brand color):** `--color-error` `#A33F2C` with `--color-error-tint` `#FAE7E1`, for form errors: invalid field border, error message text and its box fill. Never decorative, never the only signal (see design system section 6, "Error state").
 
 ### Typography Tokens
 - **Display & Titles:** `Space Grotesk`, sans-serif (used for headings, display heroes, numbers, and structural titles)
