@@ -70,7 +70,7 @@ There's more than one way to get involved, from reading what other bioinformatic
       </p>
       <a
         class="btn btn-primary"
-        href="https://discord.gg/CKZGMBz4b"
+        href="https://discord.gg/efga7aEUZ"
         target="_blank"
         rel="noopener noreferrer"
       >
